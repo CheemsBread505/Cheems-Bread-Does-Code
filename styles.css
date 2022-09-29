@@ -1,8 +1,36 @@
 @font-face {
     font-family: 'PressStart2P';
-    src: URL('fonts/PressStart2P.ttf') format('truetype');
+    src: URL('fonts/PressStart2P-Regular.ttf') format('truetype');
 }
 
-h1 {
+@font-face {
+    font-family: 'IBMPlexSansDevanagari';
+    src: URL('fonts/IBMPlexSansDevanagari.ttf') format('truetype');
+}
+
+body {
+    background-color: white;
+}
+
+div.mainBox {
+    border-radius: 25px;
+    margin: auto;
+    width: 700px;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
     font-family: PressStart2P;
+    color: rgb(0, 255, 60);
+}
+
+div.homePage {
+    font-family: IBMPlexSansDevanagari;
+}
+
+.email {
+    font-family: PressStart2P;
+    font-size: 13px;
+    text-align: left;
+    right: 50px !important; 
 }
