@@ -24,13 +24,42 @@ div.mainBox {
     color: rgb(0, 255, 60);
 }
 
-div.homePage {
-    font-family: IBMPlexSansDevanagari;
-}
-
 .email {
     font-family: PressStart2P;
     font-size: 13px;
     text-align: left;
     right: 50px !important; 
 }
+
+.list {
+    text-align: left;
+}
+
+
+#cheemsIMG{
+    position: relative;
+    left: -5;
+    animation-duration: 4s;
+    animation-name: cheemsIMG;
+    animation-iteration-count: infinite;
+    position: fixed;
+    bottom: 0;
+}
+
+@keyframes cheemsIMG  {
+    0% {
+        transform: translateX(100px) rotate(0);
+      }
+      30% {
+        transform: translateX(400px) rotate(0);
+      }
+      50% {
+        transform: translateX(400px) rotate(180deg);
+      }
+      80% {
+        transform: translateX(100px) rotate(180deg);
+      }
+      100% {
+        transform: translateX(100px) rotate(360deg);
+      }
+  }
