@@ -8,11 +8,8 @@
     src: URL('fonts/IBMPlexSansDevanagari.ttf') format('truetype');
 }
 
-body {
-    background-color: white;
-}
-
 div.mainBox {
+    background-color: #111314;
     border-radius: 25px;
     margin: auto;
     width: 700px;
