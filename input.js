@@ -1,0 +1,1 @@
+const input = prompt("What is the passcode?");
